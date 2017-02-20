@@ -1,0 +1,93 @@
+body {
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	font-size: 22px;
+	padding: 10px;
+}
+
+/* style for header */
+.header {
+	background-color: #4a4f57;
+	padding: 15px 0;
+}
+.site-title {
+	font-size: 30px;
+}
+.site-title,
+.site-sub-title,
+.copyright {
+	color: #FA6F79;
+	text-align: center;
+}
+
+/* style for main */
+main {
+	background-color: #3B3F46;
+	padding-bottom: 80px;
+}
+.shopping-list {
+	margin: 0 auto;
+	padding: 30px 0;
+	list-style-type: none;
+	width: 600px;
+	
+}
+.shopping-list li {
+	background-color: #8A809E;
+	color: #fff;
+	transition: .2s ease-in;
+	transition-property: background-color, border;
+}
+ul.shopping-list li:hover {
+	background-color: #645c78;
+}
+ul.shopping-list li:hover label {
+	border-color: #fff;
+}
+ul.shopping-list li:active {
+	background-color: red;
+}
+.shopping-list li:nth-child(even) {
+	background-color: #7D7294;
+}
+
+.shopping-list li label {
+	display: block;
+	padding: 8px;
+	cursor: pointer;
+	border-top: 3px solid #8A809E;
+	border-bottom: 3px solid #8A809E;
+}
+.shopping-list li:nth-child(even) label {
+	border-top: 3px solid #7D7294;
+	border-bottom: 3px solid #7D7294;
+}
+.small {
+	font-size: 14px;
+	color: #cdc6c6;
+}
+.small:before {
+	content: '( ';
+}
+.small:after {
+	content: ' )';
+}
+input[type='checkbox'] {
+	zoom: 1.6;
+}
+input[type='checkbox']:checked + .wrapper span {
+	text-decoration: line-through;
+	color: #A29DB4;
+}
+
+
+
+.copyright {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #4A4F57;
+	padding: 15px 0;
+}
+
+
+
+
